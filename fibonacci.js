@@ -21,6 +21,7 @@ function fibo(n) {
 }
 
 process.on('message', function (n) {
+  console.log('computing fibo(%s)', n);
   var f = fibo(n);
   process.send(f);
 });

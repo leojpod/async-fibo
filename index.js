@@ -5,7 +5,7 @@
 var fork = require('child_process').fork;
 
 module.exports = function (n, cb) {
-  var fiboComputer = fork('./fibonacci');
+  var fiboComputer = fork(__dirname + '/fibonacci');
   fiboComputer.on('message', function (msg) {
     console.log('fibo of %s is %s', n, msg);
     cb(msg);
