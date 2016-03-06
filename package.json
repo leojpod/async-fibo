@@ -1,0 +1,22 @@
+{
+  "name": "async-fibo",
+  "version": "1.0.0",
+  "description": "simple fibonacci calculator for a nodejs course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leojpod/async-fibo.git"
+  },
+  "keywords": [
+    "fibo"
+  ],
+  "author": "leojpod",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/leojpod/async-fibo/issues"
+  },
+  "homepage": "https://github.com/leojpod/async-fibo#readme"
+}
