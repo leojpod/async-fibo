@@ -1,6 +1,6 @@
 {
   "name": "async-fibo",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "simple fibonacci calculator for a nodejs course",
   "main": "index.ts",
   "scripts": {
