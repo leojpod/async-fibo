@@ -2,7 +2,7 @@
   "name": "async-fibo",
   "version": "1.0.1",
   "description": "simple fibonacci calculator for a nodejs course",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/leojpod/async-fibo/issues"
   },
-  "homepage": "https://github.com/leojpod/async-fibo#readme"
+  "homepage": "https://github.com/leojpod/async-fibo#readme",
+  "dependencies": {
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {
+    "tslint": "^3.11.0"
+  }
 }
