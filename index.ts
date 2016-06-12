@@ -1,7 +1,6 @@
 /**
  * Created by leojpod on 3/6/16.
  */
-
 import {fork} from 'child_process';
 import {ChildProcess} from 'child_process';
 
